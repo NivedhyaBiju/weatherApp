@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <form class="search-form" action="">
+            <input class="city-input" type="text" placeholder="Enter your location">
+            <button class="search-btn" type="submit">
+                <i class="material-icons">search</i>
+            </button>
+        </form>
+        <div class="city-date-section">
+            <div class="city">
+                <i class="material-icons">location_on</i>
+                <span>Location</span>
+            </div>
+            <div class="date">
+                <i class="material-icons">calendar_month</i>
+                <span>Today's Date</span>
+            </div>
+        </div>
+        <div class="temperature-info">
+            <div class="description">
+                <i class="material-icons">sunny</i>
+                <span class="description-text">Description</span>
+            </div>
+            <div class="temp"></div>
+        </div>
+        <div class="additional-info">
+            <div class="feels-info">
+                <i class="material-icons">thermostat</i>
+                <div>
+                    <h3 class="feels-like"></h3>
+                    <p class="feels-like">Feels like</p>
+                </div>        
+            </div>
+            <div class="pressure-info">
+                <i class="material-icons">water</i>
+                <div>
+                    <h3 class="pressure"></h3>
+                    <p class="pressure">Pressure</p>
+                </div>        
+            </div>
+            <div class="humidity-info">
+                <i class="material-icons">water_drop</i>
+                <div>
+                    <h3 class="humidity"></h3>
+                    <p class="humidity">Humidity</p>
+                </div>        
+            </div>
+        </div>
+        <div class="additional-info">
+            <div class="wind-info">
+                <i class="material-icons">air</i>
+                <div>
+                    <h3 class="wind-speed"></h3>
+                    <p class="wind-label">Wind</p>
+                </div>        
+            </div>
+            <div class="sunrise-info">
+                <i class="material-icons">wb_sunny</i>
+                <div>
+                    <h3 class="sunrise"></h3>
+                    <p class="sunrise-label">Sunrise</p>
+                </div>        
+            </div>
+            <div class="sunset-info">
+                <i class="material-icons">wb_twilight</i>
+                <div>
+                    <h3 class="sunset"></h3>
+                    <p class="sunset-label">Sunset</p>
+                </div>        
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="./script.js"></script>
+</html>
+
+
+<!-- temperature
+feelsLike like
+pressure
+humidity
+wind speed
+sunrise
+sunset
+weather,main & description -->

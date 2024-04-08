@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg);
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.weather-app{
+    background: url(https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.search-form{
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    background: url(https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg);
+    width: 460px; 
+    height: 10px;
+    padding: 20px;
+    border: 2px solid #ccd3d3;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.search-btn{
+    background: url(https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg);
+    height: 45px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: grey;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.city-date-section{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.city-date-section .city{
+    font-size: 2rem;
+
+    opacity: 0.9;
+}
+
+.city-date-section .date{
+    background: url(https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.temperature-info{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.temperature-info .temp{
+    font-size: 8rem;  
+}
+
+.temperature-info .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.temperature-info .description i{
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.temperature-info .description span{
+    font-size: 1.5rem;
+}
+
+.additional-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feels-info, .pressure-info, .humidity-info, .wind-info, .sunrise-info, .sunset-info{
+    background: url(https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg);
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.additional-info .material-icons{
+    font-size: 3rem;
+    opacity: 0.8;   
+}
+
+.feels-info div, .pressure-info div, .humidity-info div, .wind-info div, .sunrise-info div, .sunset-info div{
+    text-align: center;
+}
